@@ -18,7 +18,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get("/api", (req, res) => {
-  res.status(200).json({ link: "https://localhost:3000/" });
+  res.status(200).json({ link: "http://localhost:5000/" });
 });
 
 const port = process.env.PORT || 5000;
