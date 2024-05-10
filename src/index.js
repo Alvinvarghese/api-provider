@@ -18,7 +18,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get("/api", (req, res) => {
-  res.status(200).json({ link: "https://f40a-103-183-83-115.ngrok-free.app/" });
+  res.status(200).json({ link: "https://fd85-103-183-83-115.ngrok-free.app/" });
 });
 
 const port = process.env.PORT || 5000;
